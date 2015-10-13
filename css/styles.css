@@ -1,19 +1,29 @@
+/* Global */
 img {
-    width: 55%;
+    width: 50%;
 }
 
 body {
     background: teal;
 }
 
+/* Layout */
+
+
+
+/* Typography */
+
+
+
+/* Navigation */
 a {
-    background: red;
+    background: teal;
     border-radius: 20px;
     display: block;
     height: 50px;
     width: 100px;
-}
+  }
 
 li {
-    display: inline;
+    display: inline-block;
 }
