@@ -1,0 +1,19 @@
+img {
+    width: 55%;
+}
+
+body {
+    background: teal;
+}
+
+a {
+    background: red;
+    border-radius: 20px;
+    display: block;
+    height: 50px;
+    width: 100px;
+}
+
+li {
+    display: inline;
+}
