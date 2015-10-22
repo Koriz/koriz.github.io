@@ -5,7 +5,8 @@ img {
 
 body {
     background: rgb(0, 66, 66);
-    color: white
+    color: white;
+    margin-left: 20px;
 }
 
 /* Layout */
