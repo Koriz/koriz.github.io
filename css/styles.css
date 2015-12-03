@@ -20,10 +20,12 @@ body {
     margin: 45px;
 }
 
-img {
+/* Images */
+
+.profile {
     margin: auto;
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
 }
 
 /* Typography */
@@ -41,23 +43,48 @@ h2 {
     color: white;
 }
 
+h3 {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    letter-spacing: 0.015em;
+}
 p {
     font-family: 'Karla', sans-serif;
     color: white;
 }
 
+blockquote {
+    text-align: center;
+}
+
 /* Navigation */
+
+#top-navigation {
+    font-family: 'Karla', sans-serif;
+    display: block;
+    text-decoration: none;
+    margin-top: 0;
+    color: white;
+    list-style: none;
+    float: right;
+}
+
+
 ul {
-    background: red;
     text-decoration: none;
     margin-top: 0;
 }
 
 li {
+    font-family: 'Karla', sans-serif;
     color: white;
     list-style: none;
     float: right;
 }
+
+
+
+
 
 /* Link Visited*/
 a:link,
@@ -70,7 +97,7 @@ a:visited {
   padding-top: 0;
   text-align: center;
   text-decoration: none;
-  width: 90px;  
+  width: 90px;
   
   transition: padding-top .5s;
 }
@@ -84,12 +111,24 @@ a:active {
   padding-top: 32px;
 }
 
+
 /* Layout */
     
+ .skills {
+    text-decoration: none;
+    margin-top: 0;
+    color: white;
+    list-style: none;
+    margin-left: -2em;
+}
     
+aside {
+  padding: 2.777777777778%; /* 10px / 360px = 0.02777777777778*/ 
+  margin: 1%; /* 10px / 1000px = .01 */
+  width: 32%; /* 360px / 1000px = .36 */
+}
     
-    
-    
+
     
     
     
