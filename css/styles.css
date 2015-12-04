@@ -1,7 +1,7 @@
 /*
     Color Palette
     --
-    Pimary Color: rgb (49, 57, 168)
+    Pimary Color: rgb(49, 57, 168)
     Secondary color: rgb(165, 1, 68)
     Accent Color: rgb(15, 90, 128)
     Text color: white
@@ -26,6 +26,10 @@ body {
     margin: auto;
     width: 25%;
     height: 25%;
+}
+
+img {
+    float: right;
 }
 
 /* Typography */
