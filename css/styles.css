@@ -8,7 +8,7 @@
     
     Typograaphy
     --
-    Headlines: font-family: 'Anton', sans-serif;
+    Headlines: font-family: 'Righteous', cursive;
     Body Copy: font-family: 'Karla', sans-serif;
     
     Backgrounds:
@@ -35,7 +35,7 @@ img {
 
 /* Typography */
 h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Righteous', cursive;
     font-size: 3em;
     color: white;
     letter-spacing: .15em;
@@ -43,13 +43,13 @@ h1 {
 }
 
 h2 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Righteous', cursive;
     font-size: 2em;
     color: white;
 }
 
 h3 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Righteous', cursive;
     color: white;
     letter-spacing: 0.015em;
 }
@@ -87,9 +87,37 @@ li {
     float: right;
 }
 
+input {
+    background: rgb(15, 90, 128);
+    margin-left: 4%;
+    color: white;
+}
 
+textarea {
+    
+    margin-top: 4%;
+    margin-left: 4%;
+}
 
+label {
+    font-family: 'Karla', sans-serif;
+    color: white;
+    text-align: right;
+    margin-left: 2%;
+}
 
+button {
+    margin-left: 4%;
+}
+
+input[type="submit"] {
+  background: rgb(165, 1, 68);
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+    color: white;
+
+}
 
 /* Link Visited*/
 a:link,
@@ -128,9 +156,9 @@ a:active {
 }
     
 aside {
-  padding: 2.777777777778%; /* 10px / 360px = 0.02777777777778*/ 
-  margin: 1%; /* 10px / 1000px = .01 */
-  width: 32%; /* 360px / 1000px = .36 */
+  padding: 3%;
+  margin: 1%;
+  width: 50%;
 }
     
 
