@@ -10,7 +10,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(165, 1, 68);
+  background: url(../img/batman%20pattern%20red.png);
   opacity: 0;
   transition: opacity 0.25s; 
 }
