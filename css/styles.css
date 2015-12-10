@@ -30,7 +30,9 @@ body {
 
 img {
     float: right;
-    margin-right: 1.5em;
+    margin-right: 4%;
+    width: 40%;
+    height: auto;
 }
 
 /* Typography */
@@ -121,6 +123,7 @@ input[type="submit"] {
 
 .portfolio {
     text-align: right;
+    margin-left: 4%
 }
 
 /* Link Visited*/
