@@ -26,7 +26,9 @@ body {
     width: 100%;
 }
 
-
+.portfolio {
+    width: 100%;
+}
 
 /* Typography */
 h1 {
@@ -73,7 +75,7 @@ blockquote {
   text-align: center;
 }
 
-li {
+.navlist {
   list-style: none;
   float: left;
 }
@@ -81,7 +83,6 @@ li {
 
 a:hover {
     background: rgb(15, 90, 128);
-    border-radius: 8px;
 }
 
 label {
@@ -98,6 +99,9 @@ input[type="submit"] {
 
 /* Link Visited*/
 
+.email {
+    color: rgb(165, 1, 68);
+}
 
 /* Layout */
     
