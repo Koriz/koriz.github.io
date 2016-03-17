@@ -1,0 +1,219 @@
+/*
+    Color Palette
+    --
+    Pimary Color: rgb(49, 57, 168)
+    Secondary color: rgb(165, 1, 68)
+    Accent Color: rgb(15, 90, 128)
+    Text color: white
+    
+    Typograaphy
+    --
+    Headlines: font-family: 'Righteous', cursive;
+    Body Copy: font-family: 'Karla', sans-serif;
+    
+    Backgrounds:
+*/
+
+/* Global */
+body {
+    background: url(https://raw.githubusercontent.com/Koriz/koriz.github.io/master/img/Pattern.png);
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* Images */
+.profile {
+    width: 100%;
+}
+
+.portfolio {
+  width: 100%;
+}
+
+
+/* Typography */
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 1.5em;
+    font-family: 'Righteous', cursive;
+    font-size: 3em;
+    margin: 0 auto;
+    line-height: 200%;
+}
+
+h2 {
+    color: white;
+    background: rgb(165, 1, 68);
+    font-family: 'Righteous', cursive;
+    line-height: 200%;
+}
+
+h3 {
+    color: white;
+    font-family: 'Righteous', cursive;
+    line-height: 200%;
+}
+
+p {
+    color: white;
+    line-height: 200%;
+    font-family: 'Karla', sans-serif;
+}
+
+blockquote {
+    text-align: center;
+}
+
+/* Navigation */
+.nav {
+  background: rgb(165, 1, 68);
+  color: #fff;
+  text-decoration: none;
+
+  display: block;
+  line-height: 40px;
+  margin: 0 20px;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  float: left;
+}
+
+
+a:hover {
+    background: rgb(15, 90, 128);
+    border-radius: 8px;
+}
+
+label {
+    color: white;
+}
+
+input[type="submit"] {
+    background: rgb(165, 1, 68);
+    padding: .5em;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Link Visited*/
+
+.email {
+  color: rgb(165, 1, 68);
+}
+/* Layout */
+    
+#top-navigation {
+  display:inline-block;
+  padding:10px;
+}
+    
+.char1,
+.char7{
+  color: rgb(165, 1, 68);
+  font-size: 1.5em;
+}    
+    
+.heading {
+  text-align: center;
+}    
+    
+.top {
+  margin-bottom: -5em;
+}
+    
+    
+    
+/* Gallery */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.gallery {
+	width: 100%;
+	height: auto;
+}
+
+.gallery li {
+	width: 25%;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+.transform {
+	-webkit-transition: all .25s cubic-bezier(.2, .31, .36, 1);
+       -moz-transition: all .25s cubic-bezier(.2, .31, .36, 1);
+	     -o-transition: all .25s cubic-bezier(.2, .31, .36, 1);
+	        transition: all .25s cubic-bezier(.2, .31, .36, 1);
+}
+
+.gallery a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.gallery img {
+	position: relative;
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.gallery .info {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+	background: rgb(165, 1, 68);
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-transform: translateZ(0);
+   	        transform: translateZ(0);
+}
+
+.gallery .title {
+	font-weight: bold;
+	font-size: 10px;
+    color: white;
+    position: relative;
+    top: 45%;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
