@@ -16,7 +16,7 @@
 
 /* Global */
 body {
-    background: url(https://raw.githubusercontent.com/Koriz/koriz.github.io/master/img/Pattern.png);
+    background-image: url(../img/Tile.jpg);
     margin: 0 auto;
     width: 50%;
 }
